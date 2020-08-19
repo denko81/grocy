@@ -1,6 +1,6 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 
-## Installation instructions (general):
+## Installation instructions for external Grocy install:
 
 1. Install HACS for Home Assistant
 2. Go to Community-Store-Grocy
@@ -8,10 +8,10 @@
 4. Restart Home Assistant
 5. Go to Grocy-Wrench icon-Manage API keys-Add
 6. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Grocy"
-7. Look for the new Grocy sensor in States and use its info
+7. Look for the new Grocy sensors in States and use its info
 
 
-## Additional installation instructions for Hass.io users
+## Installation instructions for Hass.io users with [Grocy addon](https://github.com/hassio-addons/addon-grocy)
 
 The configuration is slightly different for users that use Hass.io and the [official Grocy addon](https://github.com/hassio-addons/addon-grocy) from the Hass.io Add-on store.
 
@@ -25,4 +25,4 @@ The configuration is slightly different for users that use Hass.io and the [offi
 6. Restart Home Assistant
 7. Go to Grocy > Wrench icon > Manage API keys > Add
 8. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Grocy"
-9. Look for the new Grocy sensor in States and use its info
+9. Look for the new Grocy sensors in States and use its info
